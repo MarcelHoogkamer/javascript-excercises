@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>BeCode/JavaScript - 2.1: calculator</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+        <link rel="stylesheet" href="../../_shared/css/normalize.css" />
+        <link rel="stylesheet" href="../../_shared/css/styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>BeCode / JavaScript</h1>
+                <h2>
+                    <span>2.1</span>
+                    <strong>Calculator</strong>
+                </h2>
+            </header>
+            <div class="content">
+                <section class="explain">
+                    <p>Correct the script to make the calculator work.</p>
+                </section>
+                <section class="material">
+                    <form>
+                        1st Number : <input type="text" id="firstNumber" /><br>
+                        2nd Number: <input type="text" id="secondNumber" /><br>
+                        <input type="button" onClick="multiplyBy()" Value="x" />
+                        <input type="button" onClick="divideBy()" Value="/" />
+                        <input type="button" onClick="addBy()" Value="+" />
+                        <input type="button" onClick="subtractBy()" Value="-" />
+                    </form>
+                    <p>The Result is : <br>
+                        <span id = "result"></span>
+                    </p>
+                </section>
+            </div>
+        </div>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
+

@@ -1,0 +1,9 @@
+// TO DO: REPLACE THE TARGET TEXT WITHOUT USING GETELEMENTBYID
+
+(function() {
+
+    target.innerHTML = "owned";
+
+})();
+
+// ALSO POSSIBLE: DOCUMENT.QUERYSELECTOR("#TARGET")
